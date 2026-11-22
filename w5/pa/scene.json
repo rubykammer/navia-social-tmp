@@ -1,0 +1,692 @@
+{
+ "version": "1.0",
+ "composition": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 12.4,
+  "background": "#0E1B3D"
+ },
+ "assets": {
+  "p1_scia": {
+   "type": "image",
+   "uri": "https://raw.githubusercontent.com/rubykammer/navia-social-tmp/main/w5/pa/p1_scia.jpg",
+   "width": 1440,
+   "height": 2560
+  },
+  "p2_costa": {
+   "type": "image",
+   "uri": "https://raw.githubusercontent.com/rubykammer/navia-social-tmp/main/w5/pa/p2_costa.jpg",
+   "width": 1440,
+   "height": 2560
+  },
+  "p3_motore": {
+   "type": "image",
+   "uri": "https://raw.githubusercontent.com/rubykammer/navia-social-tmp/main/w5/pa/p3_motore.jpg",
+   "width": 1440,
+   "height": 2560
+  },
+  "p4_schermo": {
+   "type": "image",
+   "uri": "https://raw.githubusercontent.com/rubykammer/navia-social-tmp/main/w5/pa/p4_schermo.jpg",
+   "width": 1440,
+   "height": 2560
+  },
+  "p5_tuffo": {
+   "type": "image",
+   "uri": "https://raw.githubusercontent.com/rubykammer/navia-social-tmp/main/w5/pa/p5_tuffo.jpg",
+   "width": 1440,
+   "height": 2560
+  },
+  "p6_tramonto": {
+   "type": "image",
+   "uri": "https://raw.githubusercontent.com/rubykammer/navia-social-tmp/main/w5/pa/p6_tramonto.jpg",
+   "width": 1440,
+   "height": 2160
+  },
+  "fBlack": {
+   "type": "font",
+   "name": "Archivo Black Regular",
+   "uri": "https://pastatic.picsart.com/53184120696906780723.ttf"
+  },
+  "fSemi": {
+   "type": "font",
+   "name": "Archivo SemiBold",
+   "uri": "https://pastatic.picsart.com/37298005619651814029.ttf"
+  }
+ },
+ "layers": [
+  {
+   "id": "reel",
+   "start": 0,
+   "duration": 12.4,
+   "content": {
+    "kind": "track",
+    "clips": [
+     {
+      "id": "c_p1_scia",
+      "duration": 2.0,
+      "content": {
+       "kind": "media",
+       "assetId": "p1_scia",
+       "fit": "cover"
+      },
+      "animations": {
+       "scale": {
+        "keyframes": [
+         {
+          "time": 0,
+          "value": [
+           1.0,
+           1.0
+          ],
+          "easing": "linear"
+         },
+         {
+          "time": 2.0,
+          "value": [
+           1.12,
+           1.12
+          ]
+         }
+        ]
+       }
+      }
+     },
+     {
+      "id": "c_p2_costa",
+      "duration": 2.0,
+      "content": {
+       "kind": "media",
+       "assetId": "p2_costa",
+       "fit": "cover"
+      },
+      "animations": {
+       "scale": {
+        "keyframes": [
+         {
+          "time": 0,
+          "value": [
+           1.12,
+           1.12
+          ],
+          "easing": "linear"
+         },
+         {
+          "time": 2.0,
+          "value": [
+           1.0,
+           1.0
+          ]
+         }
+        ]
+       }
+      }
+     },
+     {
+      "id": "c_p3_motore",
+      "duration": 1.8,
+      "content": {
+       "kind": "media",
+       "assetId": "p3_motore",
+       "fit": "cover"
+      },
+      "animations": {
+       "scale": {
+        "keyframes": [
+         {
+          "time": 0,
+          "value": [
+           1.0,
+           1.0
+          ],
+          "easing": "linear"
+         },
+         {
+          "time": 1.8,
+          "value": [
+           1.14,
+           1.14
+          ]
+         }
+        ]
+       }
+      }
+     },
+     {
+      "id": "c_p4_schermo",
+      "duration": 1.8,
+      "content": {
+       "kind": "media",
+       "assetId": "p4_schermo",
+       "fit": "cover"
+      },
+      "animations": {
+       "scale": {
+        "keyframes": [
+         {
+          "time": 0,
+          "value": [
+           1.12,
+           1.12
+          ],
+          "easing": "linear"
+         },
+         {
+          "time": 1.8,
+          "value": [
+           1.0,
+           1.0
+          ]
+         }
+        ]
+       }
+      }
+     },
+     {
+      "id": "c_p5_tuffo",
+      "duration": 2.2,
+      "content": {
+       "kind": "media",
+       "assetId": "p5_tuffo",
+       "fit": "cover"
+      },
+      "animations": {
+       "scale": {
+        "keyframes": [
+         {
+          "time": 0,
+          "value": [
+           1.0,
+           1.0
+          ],
+          "easing": "linear"
+         },
+         {
+          "time": 2.2,
+          "value": [
+           1.1,
+           1.1
+          ]
+         }
+        ]
+       }
+      }
+     },
+     {
+      "id": "c_p6_tramonto",
+      "duration": 2.6,
+      "content": {
+       "kind": "media",
+       "assetId": "p6_tramonto",
+       "fit": "cover"
+      },
+      "animations": {
+       "scale": {
+        "keyframes": [
+         {
+          "time": 0,
+          "value": [
+           1.1,
+           1.1
+          ],
+          "easing": "linear"
+         },
+         {
+          "time": 2.6,
+          "value": [
+           1.0,
+           1.0
+          ]
+         }
+        ]
+       }
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "between": 0,
+      "id": "blur_dissolve",
+      "duration": 0.5
+     },
+     {
+      "between": 1,
+      "id": "slide",
+      "duration": 0.45,
+      "params": {
+       "direction": "up",
+       "mode": "push"
+      }
+     },
+     {
+      "between": 2,
+      "id": "zoom_through",
+      "duration": 0.4
+     },
+     {
+      "between": 3,
+      "id": "slide",
+      "duration": 0.45,
+      "params": {
+       "direction": "left",
+       "mode": "push"
+      }
+     },
+     {
+      "between": 4,
+      "id": "light_leak_burst",
+      "duration": 0.6,
+      "params": {
+       "origin": "right",
+       "tint": "#C9A46C",
+       "intensity": 0.8
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "scrim",
+   "start": 0,
+   "duration": 12.4,
+   "transform": {
+    "position": [
+     540,
+     1520
+    ]
+   },
+   "content": {
+    "kind": "shape",
+    "items": [
+     {
+      "type": "rect",
+      "position": [
+       0,
+       0
+      ],
+      "size": [
+       1080,
+       800
+      ]
+     },
+     {
+      "type": "gradientFill",
+      "gradientType": "linear",
+      "startPoint": [
+       0,
+       -400
+      ],
+      "endPoint": [
+       0,
+       400
+      ],
+      "colorStops": [
+       {
+        "offset": 0,
+        "color": "#0E1B3D"
+       },
+       {
+        "offset": 1,
+        "color": "#0E1B3D"
+       }
+      ],
+      "alphaStops": [
+       {
+        "offset": 0,
+        "alpha": 0
+       },
+       {
+        "offset": 0.45,
+        "alpha": 0.55
+       },
+       {
+        "offset": 1,
+        "alpha": 0.75
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "t1",
+   "start": 0.2,
+   "duration": 1.55,
+   "transform": {
+    "position": [
+     540,
+     1460
+    ]
+   },
+   "animations": {
+    "opacity": {
+     "keyframes": [
+      {
+       "time": 1.5,
+       "value": 1
+      },
+      {
+       "time": 1.75,
+       "value": 0
+      }
+     ]
+    }
+   },
+   "content": {
+    "kind": "text",
+    "text": "Zero rumore.",
+    "font": {
+     "family": "fBlack",
+     "size": 104
+    },
+    "color": "#ffffff",
+    "alignment": "center",
+    "wrapWidth": 900,
+    "animations": [
+     {
+      "preset": "fade_in_chars",
+      "params": {
+       "duration": 0.5,
+       "stagger": 0.3
+      }
+     }
+    ]
+   },
+   "effects": [
+    {
+     "id": "drop_shadow",
+     "params": {
+      "offset": [
+       0,
+       4
+      ],
+      "blur": 18,
+      "color": "#00000099"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "start": 2.2,
+   "duration": 1.55,
+   "transform": {
+    "position": [
+     540,
+     1460
+    ]
+   },
+   "animations": {
+    "opacity": {
+     "keyframes": [
+      {
+       "time": 3.5,
+       "value": 1
+      },
+      {
+       "time": 3.75,
+       "value": 0
+      }
+     ]
+    }
+   },
+   "content": {
+    "kind": "text",
+    "text": "Zero gasolio.",
+    "font": {
+     "family": "fBlack",
+     "size": 104
+    },
+    "color": "#ffffff",
+    "alignment": "center",
+    "wrapWidth": 900,
+    "animations": [
+     {
+      "preset": "fade_in_chars",
+      "params": {
+       "duration": 0.5,
+       "stagger": 0.3
+      }
+     }
+    ]
+   },
+   "effects": [
+    {
+     "id": "drop_shadow",
+     "params": {
+      "offset": [
+       0,
+       4
+      ],
+      "blur": 18,
+      "color": "#00000099"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "start": 4.15,
+   "duration": 3.2,
+   "transform": {
+    "position": [
+     540,
+     1460
+    ]
+   },
+   "animations": {
+    "opacity": {
+     "keyframes": [
+      {
+       "time": 7.1,
+       "value": 1
+      },
+      {
+       "time": 7.35,
+       "value": 0
+      }
+     ]
+    }
+   },
+   "content": {
+    "kind": "text",
+    "text": "40 kW.\nTutto elettrico.",
+    "font": {
+     "family": "fBlack",
+     "size": 96
+    },
+    "color": "#ffffff",
+    "alignment": "center",
+    "wrapWidth": 900,
+    "animations": [
+     {
+      "preset": "fade_in_chars",
+      "params": {
+       "duration": 0.5,
+       "stagger": 0.3
+      }
+     }
+    ]
+   },
+   "effects": [
+    {
+     "id": "drop_shadow",
+     "params": {
+      "offset": [
+       0,
+       4
+      ],
+      "blur": 18,
+      "color": "#00000099"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "start": 7.85,
+   "duration": 1.7,
+   "transform": {
+    "position": [
+     540,
+     1460
+    ]
+   },
+   "animations": {
+    "opacity": {
+     "keyframes": [
+      {
+       "time": 9.3,
+       "value": 1
+      },
+      {
+       "time": 9.55,
+       "value": 0
+      }
+     ]
+    }
+   },
+   "content": {
+    "kind": "text",
+    "text": "Motore spento.\nSi va in acqua.",
+    "font": {
+     "family": "fBlack",
+     "size": 92
+    },
+    "color": "#ffffff",
+    "alignment": "center",
+    "wrapWidth": 900,
+    "animations": [
+     {
+      "preset": "fade_in_chars",
+      "params": {
+       "duration": 0.5,
+       "stagger": 0.3
+      }
+     }
+    ]
+   },
+   "effects": [
+    {
+     "id": "drop_shadow",
+     "params": {
+      "offset": [
+       0,
+       4
+      ],
+      "blur": 18,
+      "color": "#00000099"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "start": 10.0,
+   "duration": 2.4,
+   "transform": {
+    "position": [
+     540,
+     1420
+    ]
+   },
+   "animations": {
+    "opacity": {
+     "keyframes": [
+      {
+       "time": 12.15,
+       "value": 1
+      },
+      {
+       "time": 12.4,
+       "value": 0
+      }
+     ]
+    }
+   },
+   "content": {
+    "kind": "text",
+    "text": "NAVIA N7",
+    "font": {
+     "family": "fBlack",
+     "size": 124
+    },
+    "color": "#ffffff",
+    "alignment": "center",
+    "wrapWidth": 900,
+    "animations": [
+     {
+      "preset": "fade_in_chars",
+      "params": {
+       "duration": 0.5,
+       "stagger": 0.3
+      }
+     }
+    ]
+   },
+   "effects": [
+    {
+     "id": "drop_shadow",
+     "params": {
+      "offset": [
+       0,
+       4
+      ],
+      "blur": 18,
+      "color": "#00000099"
+     }
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "start": 10.35,
+   "duration": 2.05,
+   "transform": {
+    "position": [
+     540,
+     1540
+    ]
+   },
+   "animations": {
+    "opacity": {
+     "keyframes": [
+      {
+       "time": 12.15,
+       "value": 1
+      },
+      {
+       "time": 12.4,
+       "value": 0
+      }
+     ]
+    }
+   },
+   "content": {
+    "kind": "text",
+    "text": "100% elettrica · made in Italy",
+    "font": {
+     "family": "fSemi",
+     "size": 40
+    },
+    "color": "#C9A46C",
+    "alignment": "center",
+    "wrapWidth": 900
+   },
+   "effects": [
+    {
+     "id": "drop_shadow",
+     "params": {
+      "offset": [
+       0,
+       4
+      ],
+      "blur": 18,
+      "color": "#00000099"
+     }
+    }
+   ]
+  }
+ ]
+}
